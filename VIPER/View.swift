@@ -87,6 +87,15 @@ class UserViewController: UIViewController, AnyView, UITableViewDelegate, UITabl
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return users.count
     }
+}
+
+
+extension UserViewController{
+    var isTableViewHidden: Bool {
+        return tableView.isHidden
+    }
     
-    
+    var isLableViewHidden: Bool {
+        return label.isHidden
+    }
 }

@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A859C512BDA0F2C003A4418 /* UsersTableVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A859C502BDA0F2C003A4418 /* UsersTableVCTests.swift */; };
+		9A859C532BDA3985003A4418 /* UserViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A859C522BDA3985003A4418 /* UserViewController+Extension.swift */; };
 		9ABE1D3B2BD89D5400C3C6F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE1D3A2BD89D5400C3C6F4 /* AppDelegate.swift */; };
 		9ABE1D3D2BD89D5400C3C6F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE1D3C2BD89D5400C3C6F4 /* SceneDelegate.swift */; };
 		9ABE1D442BD89D5600C3C6F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ABE1D432BD89D5600C3C6F4 /* Assets.xcassets */; };
 		9ABE1D472BD89D5600C3C6F4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9ABE1D462BD89D5600C3C6F4 /* Base */; };
-		9ABE1D522BD89D5600C3C6F4 /* viperexampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE1D512BD89D5600C3C6F4 /* viperexampleTests.swift */; };
 		9ABE1D5C2BD89D5600C3C6F4 /* viperexampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE1D5B2BD89D5600C3C6F4 /* viperexampleUITests.swift */; };
 		9ABE1D5E2BD89D5600C3C6F4 /* viperexampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE1D5D2BD89D5600C3C6F4 /* viperexampleUITestsLaunchTests.swift */; };
 		9ABE1D6C2BD89E5300C3C6F4 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABE1D6B2BD89E5300C3C6F4 /* View.swift */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A859C502BDA0F2C003A4418 /* UsersTableVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableVCTests.swift; sourceTree = "<group>"; };
+		9A859C522BDA3985003A4418 /* UserViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserViewController+Extension.swift"; sourceTree = "<group>"; };
 		9ABE1D372BD89D5400C3C6F4 /* viperexample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viperexample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABE1D3A2BD89D5400C3C6F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9ABE1D3C2BD89D5400C3C6F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +49,6 @@
 		9ABE1D462BD89D5600C3C6F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9ABE1D482BD89D5600C3C6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9ABE1D4D2BD89D5600C3C6F4 /* viperexampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viperexampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9ABE1D512BD89D5600C3C6F4 /* viperexampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viperexampleTests.swift; sourceTree = "<group>"; };
 		9ABE1D572BD89D5600C3C6F4 /* viperexampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viperexampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABE1D5B2BD89D5600C3C6F4 /* viperexampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viperexampleUITests.swift; sourceTree = "<group>"; };
 		9ABE1D5D2BD89D5600C3C6F4 /* viperexampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viperexampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -118,7 +120,7 @@
 		9ABE1D502BD89D5600C3C6F4 /* viperexampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				9ABE1D512BD89D5600C3C6F4 /* viperexampleTests.swift */,
+				9A859C502BDA0F2C003A4418 /* UsersTableVCTests.swift */,
 			);
 			path = viperexampleTests;
 			sourceTree = "<group>";
@@ -140,6 +142,7 @@
 				9ABE1D6F2BD89E6F00C3C6F4 /* Presenter.swift */,
 				9ABE1D712BD89E8300C3C6F4 /* Entity.swift */,
 				9ABE1D732BD89E8E00C3C6F4 /* Router.swift */,
+				9A859C522BDA3985003A4418 /* UserViewController+Extension.swift */,
 			);
 			path = VIPER;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 					};
 					9ABE1D4C2BD89D5600C3C6F4 = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
 						TestTargetID = 9ABE1D362BD89D5400C3C6F4;
 					};
 					9ABE1D562BD89D5600C3C6F4 = {
@@ -288,7 +292,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ABE1D522BD89D5600C3C6F4 /* viperexampleTests.swift in Sources */,
+				9A859C512BDA0F2C003A4418 /* UsersTableVCTests.swift in Sources */,
+				9A859C532BDA3985003A4418 /* UserViewController+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +511,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3D6TB2F5RY;
@@ -515,6 +521,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.viper.example.viperexampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/viperexample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/viperexample";
@@ -526,6 +535,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3D6TB2F5RY;
@@ -535,6 +545,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.viper.example.viperexampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/viperexample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/viperexample";
